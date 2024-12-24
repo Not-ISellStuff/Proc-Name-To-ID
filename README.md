@@ -2,6 +2,9 @@
 Simple C++ that uses a process name to find a process id
 
 # Main Function
+
+```FYI the process name is case senstive```
+
 ```c++
 DWORD procid(const std::string& proc) {
     PROCESSENTRY32 proce;
